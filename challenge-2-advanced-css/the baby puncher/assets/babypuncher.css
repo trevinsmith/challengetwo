@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    font-family: "Trattatello" , fantasy
+}
+h1 , h2 {
+    font-size: xx-large;
+}
+h3 {
+    animation: blink 1s step-start infinite;
+}
+@keyframes blink {
+    50%{ opacity: 0;}
+}
+.moves{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
