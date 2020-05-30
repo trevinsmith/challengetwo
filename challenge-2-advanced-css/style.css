@@ -1,5 +1,6 @@
 body{
     background-color: lightpink;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .portfolio {
@@ -9,20 +10,40 @@ body{
     padding-top: 0px;
 }
 
-h1 {
+header h1 {
+    font-family: cursive;
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-weight: 900 ;
+    font-size: 7vw;
     color: rgb(104, 2, 104);
     background-color: palegoldenrod;
-    padding-top: 20px;
+    padding-top: 1.75vw;
     padding-bottom: 0px;
     margin-bottom: 0px;
     border-radius: 10px;
+}
+
+header h1 p {
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: .5vw ;
 }
 
 .hero{
     display: flex;
 }
 
+footer{
+    font-size: 5px;
+    text-align: center;
+}
+
 .hero img {
     width: 100%;
+}
+
+h2{
+    font-size: 6vw;
 }
